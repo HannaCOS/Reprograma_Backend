@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Abel", "Lato", sans-serif;
+  font-size: 16px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+}
+button {
+  background-color: #462755;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+  border-radius: 2px;
+  margin: 1.0rem 0 0 0;
+  }
+
+/* BARRA NAVEGACAO */
+.barra-navegacao {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 65px;
+  width: 100%;
+  background-color: #462755;
+}
+/* CABECALHO */
+.cabecalho {
+  position: relative;
+  text-align: center;
+  color: #3f3d56;
+  height: auto;
+  padding: 1rem 1rem;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.cabecalho__titulo {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  color: #3f3d56;
+}
